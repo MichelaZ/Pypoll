@@ -103,7 +103,7 @@ headers = next(file_reader)
 ```
 Here is the output when I run the file:
 
-![Terminal output for candidate information]()
+![Terminal output for candidate information](https://github.com/MichelaZ/Pypoll/blob/main/Resources/practice_terminal_output.png)
 
 ## Getting the Results for Voter Turnout:
 1.The starter code begins similarly to how my practice code above started, but after creating the list and dictionary for the candidates I created a county list to store the county names and counties dictionary to contain the number of votes for each county.
@@ -180,11 +180,11 @@ county_results = (f"{county}: {county_vote_percentage:.1f}% ({county_votes:,})\n
 ```
 __How text appears when formatting matches brief:__
 
-![County results output 1]()
+![County results output 1](https://github.com/MichelaZ/Pypoll/blob/main/Resources/county_votes1.png)
 
 __How text appears with each result on a new line:__
 
-![County results output 2]()
+![County results output 2](https://github.com/MichelaZ/Pypoll/blob/main/Resources/county_votes2.png)
 
 6. I create an if statement to find the county with the largest voter turnout. If the number of votes in the county and the percentage of voters that voted in that county were than the previous, the loop has gone through it will make the variables I created in step 2 equal to the data for that county. If it is lower, it does not. Then I created a variable to format the name of the county with the highest voter turnout and saved it to the text file.
 ```
@@ -226,8 +226,8 @@ __How text appears with each result on a new line:__
 ```
 ## Election-Audit Results:
 
-![Terminal output for election results]()
-![Text output for election results]()
+![Terminal output for election results](https://github.com/MichelaZ/Pypoll/blob/main/Resources/election_results_Terminal.png)
+![Text output for election results](https://github.com/MichelaZ/Pypoll/blob/main/Resources/election_results_Text.png)
 - In this election a total of 369,711 votes were cast from this precinct.
 - The winner of the election was Diana DeGette with 272,892 votes which made up 73.8% of the total votes.
 - Charles Casper Stockham got 85,213 votes which was 23.0% of the total vote giving them second most votes.
@@ -251,7 +251,7 @@ This code could easily be used to audit data from similar elections. It can be u
 - To make the turnout more accurate I would want to find a way to import the eligible voter population and then add the calculations to the election result summary. 
 - To make this useful for elections from local to state to national elections I would add some additional columns of data and use code to determine what type of election it is. Then the output could be customized to show the results based on the election type.
 
-__Author’s Notes: __ 
+__Author’s Notes:__ 
 - You can view the commented version of this code in the txt files I’ve provide of the code I removed comments from the code excerpts to remove redundancy. 
 - After finding the candidate info in the module I started the finding the candidate info in the starter code, so that my results will most closely resemble the example.
 - When I was testing the code, I didn’t take any screen shots of my outputs, but when I was testing, I used the print function instead of saving the data to the text file to see if the code worked.
